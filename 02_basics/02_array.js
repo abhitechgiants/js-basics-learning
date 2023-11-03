@@ -6,6 +6,8 @@ const dc_heroes = ["Superman","Batman","Wonder women"]
 // console.log(marvel_heroes);
 // console.log(marvel_heroes[3][2]);
 
+concat_heroes = marvel_heroes.concat(dc_heroes)
+console.log(concat_heroes);
 
 // newHeroes = [...marvel_heroes, ...dc_heroes]
 // console.log(newHeroes);
